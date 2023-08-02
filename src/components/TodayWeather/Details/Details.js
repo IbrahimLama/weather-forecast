@@ -19,6 +19,14 @@ const Details = ({ data }) => {
   if (!noDataProvided)
     content = (
       <>
+      <Grid
+          item
+          xs={4}
+          sx={{
+            height: '80px',
+          }}
+        >
+        </Grid>
         <Grid
           item
           xs={4}
